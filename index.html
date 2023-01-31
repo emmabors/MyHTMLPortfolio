@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>Emma's Portfolio</li>
+            <li><a href="#">Link 1</a></li>
+            <li><a href="http://www.google.com">Link 2</a></li>
+            <li><a href="page3.html">Link 3</a></li>
+            <li><a href="#">Link 4</a></li>
+        </ul>
+    </nav>
+    <div class="hero-image">
+        <div class="hero-text">
+            <h1 style="font-size:50px;">Emma Borsavage</h1>
+            <p>Programmer in training</p>
+        </div>
+    </div>
+    <main>
+        <div id="main"> 
+            <article class="main-articles"> 
+                <h1>About Me</h1>
+                <strong><small></small> Fun facts about me</strong>
+                <p>I was born and raised in New York. Currently, I live in Denver, Colorado. My favorite hobbies include snowboarding, hiking and camping. I went to college at the State University of New Paltz in New York. I graduated from SUNY New Paltz with a degree in Anthropology and Asian Studies with a concentration in Archaeology. I was first introduced to coding in a web design class in college.</p>
+            </article>
+            <article class = "main-articles">
+                <h1>Travel</h1>
+                <strong><small></small>One time I went to Italy</strong>
+                <figure>
+                    <img id="venice-pic" src="images/venice.jpeg">
+                    <figcaption><em>gondola</em></figcaption>
+                </figure>
+                <p>Italy was such a beautiful place. We visited Florence, Venice and Milan.</p>
+            </article>
+            <article class="main-articles">
+                <h1>More Italy</h1>
+                <strong><small></small>Florence, Italy</p>
+            </article>
+        </div>
+    <div id="side">
+        <article class="side-articles">
+            <img id="profile-image" src="images/florence.jpeg">
+            <div id="profile-details">
+                <h2>Florence, Italy</h2>
+                <ul>
+                    <li>The Piazza della Signoria</li>
+                    <li><a href="mailto:florence@gmail.com">florence@gmail.com</a></li>
+                </ul>
+            </div> 
+           
+        </article>
+        <article class="side-articles">
+            <h1>Contact Me</h1>
+          <strong><small>Please contact me with questions</small></strong>
+            <br>
+            <form action="mailto:emmab@gmail.com" method="POST">
+                <label for="name"><strong>Name</strong></label>
+                <br>
+                <input type="text" id="name" placeholder="Your Name">
+                <br>
+                <label for="body"><strong>Message</strong></label>
+                <br>
+                <textarea id="body" placeholder="Your Message" rows="5"></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </article>
+        
+    </div>
+    </main>
+    <footer>
+        <hr>
+        <div class="footer">
+            &copy Emma Borsavage 2023
+        </div>
+    </footer>
+</body>
+</html>

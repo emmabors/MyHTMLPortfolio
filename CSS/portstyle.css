@@ -1,0 +1,84 @@
+body{background-color:light rgb(32, 159, 97);
+}
+
+body{background-color: rgba(29, 131, 77, 0.674);}
+
+#forest{ 
+    width:100%;
+    border-radius:50%;}
+
+    nav li{
+        display: center; 
+        text:rgb(108, 54, 54);
+        margin: 05px;
+        width:92%;
+        padding:0px;
+        border-radius:50%;
+        text-align:center;
+    }
+
+    #travel{
+        text-align:center;
+    }
+
+    #hobbies{
+        text-align:center;
+    }
+
+    nav ol{
+        background-color: rgba(62, 125, 81, 0.646);
+        margin: 100;
+        list-style-type:none;
+        width:100%;
+        padding: 20px;
+        }
+
+    h1{
+        border-style:outset;
+        margin-top:10px;
+        text-align:center;
+        border-radius:50%;
+        font-family:fantasy
+    }
+    
+    p{text-align:center;
+    font-family:cursive
+}
+
+        div{
+        text-align: center;
+    }
+    
+    #snow{
+        display:inline;
+    }
+
+    #florence{
+        width:50%;
+        border-radius:50%;   
+    }
+    #venice{
+        width:50%;
+        border-radius:50%;
+        float:right;
+    }
+    #ocean{
+        width:50%;
+        border-radius:50%;
+    }
+
+    #camping{
+        width:50%;
+        border-radius:50%;
+    }
+
+    #biking{
+        width:50%;
+        border-radius:50%;
+        float:right;
+    }
+    
+    #boarding{
+        width:50%;
+        border-radius:50%;
+    }
